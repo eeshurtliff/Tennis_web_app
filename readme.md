@@ -45,5 +45,5 @@ I found these websites useful in developing this software:
 The following items I plan to fix, improve, and/or add to this project in the future:
 
 * [ ] Make the web app mobile device friendly. 
-* [ ]
+* [ ] Create a more complete wireframe to make the web app look finished. 
 * [ ]

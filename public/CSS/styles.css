@@ -19,6 +19,7 @@ header h1 {
     font-size: 50px;
     grid-column: 2 / -1;
     text-align: center;
+    
 }
 
 
@@ -30,7 +31,7 @@ nav {
 }
 
 nav a {
-    color: #DAD6FF;
+    color: #E8F0B0;
     font-size: 20px;
     text-decoration: none;
     display: block;
@@ -47,7 +48,29 @@ nav a {
 nav a:hover {
     /* background-color: #2B9EB5; */
     /* height: 100%; */
-    color: #3DC0C2;
+    color: #CFE15A;
+}
+
+
+.court-details {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* padding: 10px; */
+}
+
+
+.court-details img{
+    width: 100%;
+    /* margin: 10px; */
+    /* border: solid #2F3E46; */
+    /* align-items: center; */
+}
+
+.court-title {
+    text-align:center;
+    color: #2F3E46;
+    
 }
 
 
@@ -59,20 +82,25 @@ nav a:hover {
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 }
+
+
 .court-one {
 grid-column: 2 / 3;
 grid-row: 2/5;
 background-color: #52796F;
+border-radius: 10%;
 }
 .court-two {
 grid-column: 4 / 5 ;
 grid-row: 2 / 5;
 background-color: #52796F;
+border-radius: 10%;
 }
 .court-three {
 grid-column: 6/7;
 grid-row: 2 / 5;
 background-color: #52796F;
+border-radius: 10%;
 }
 
 
