@@ -38,7 +38,11 @@ I found these websites useful in developing this software:
 * [npm Docs - About npm](https://docs.npmjs.com/about-npm)
 * [How to use external CSS in node.js with express](https://medium.com/@kyosuke0215/how-to-use-external-css-in-node-js-with-express-f50d2a956e3a)
 
-*
+* [getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+* [CSS Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
+* [How To Make A Popup Using HTML, CSS And JavaScript](https://www.youtube.com/watch?v=AF6vGYIyV8M)
+* [Change CSS Dynamically with JavaScript](https://sdkcon78221.crestron.com/sdk/Crestron_HTML5UI/Content/Topics/Reference/Development/Change-CSS.htm)
+* [sitepointcommunity Javascript to get parent element](https://www.sitepoint.com/community/t/javascript-to-get-parent-element/3551)
 
 ## Future Work
 
