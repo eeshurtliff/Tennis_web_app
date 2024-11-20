@@ -49,6 +49,7 @@ I found these websites useful in developing this software:
 * [Javascript: Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)- This website includes other javascript examples that are helpful. 
 * [Button value Property](https://www.w3schools.com/jsref/prop_pushbutton_value.asp)
 * [Check if an Element contains a Class](https://www.javascripttutorial.net/dom/css/check-if-an-element-contains-a-class/)
+* [The 40 Best JavaScript Libraries and Frameworks](https://kinsta.com/blog/javascript-libraries/)
 ## Future Work
 
 The following items I plan to fix, improve, and/or add to this project in the future:
