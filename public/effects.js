@@ -12,8 +12,6 @@ function buttonAction(element) {
             element.textContent = textParts[0];
             
             
-            
-            console.log('True', element.classList);
         }else {
             element.classList.add("reserved")
             element.textContent =element.textContent + '\n Reserved';
