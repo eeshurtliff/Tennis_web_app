@@ -1,24 +1,25 @@
 ## Overview
 
-**Tennis Court Scheduler**:
+**Project Name**: Tennis Court Scheduler
 
-**Project Description**:
+**Project Description**: A website that gives times for people to reserve three different courts. 
 
-**Project Goals**:
+**Project Goals**: Create a website that shows three different courts and the times those courts are available. Allow the user to reserve court times and mark that those times have been reserved. 
 
 ## Instructions for Build and Use
 
 Steps to build and/or run the software:
 
-1. 
-2.
-3. use the command 'node index.js' in the terminal to start the server.
+1. Set up the development enviornment. 
+2. Use the command 'node index.js' in the terminal to start the server.
+3. type 'localhost:3000' in a browser to open the website.
 
 Instructions for using the software:
 
-1. First step here
-2.
-3.
+1. start the server and open the website in a browser.
+2. Click on the 'Sign In' button
+3. Click on any court time to reserve it
+4. Click on the 'Sign Out' button to stop changes from happening. 
 
 ## Development Environment 
 
@@ -50,10 +51,13 @@ I found these websites useful in developing this software:
 * [Button value Property](https://www.w3schools.com/jsref/prop_pushbutton_value.asp)
 * [Check if an Element contains a Class](https://www.javascripttutorial.net/dom/css/check-if-an-element-contains-a-class/)
 * [The 40 Best JavaScript Libraries and Frameworks](https://kinsta.com/blog/javascript-libraries/)
+* [How to Override the CSS Properties of a Class using another CSS Class?](https://www.geeksforgeeks.org/how-to-override-the-css-properties-of-a-class-using-another-css-class/)
 ## Future Work
 
 The following items I plan to fix, improve, and/or add to this project in the future:
 
 * [ ] Make the web app mobile device friendly. 
-* [ ] Create a more complete wireframe to make the web app look finished. 
-* [ ]
+* [ ] Allow users to actually sign in to the website. 
+* [ ] Save the information to a database. 
+* [ ] show if the court is reserved by the current account or a different account.  
+

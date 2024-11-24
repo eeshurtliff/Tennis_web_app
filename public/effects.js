@@ -1,47 +1,41 @@
 
-// courts = document.getElemntsByClassName(court-details)
-// console.log(courts)
+let signedIn = false;
 
 
-function test() {
-    const allCourts = document.getElementById('tennis-courts').children
-    // console.log(allCourts)
-    for (var courtIndex in allCourts) {
-        // var court = all
-        console.log('court');
-        Court = allCourts[courtIndex];
-        courtDetails = Court.getElementsByClassName('court-details');
-        console.log(Court.children)
+function buttonAction(element) {
+    if (signedIn == true){
+
+        if (element.classList.contains("reserved")) {
+            element.classList.remove("reserved")
+            var textParts = element.textContent.split('\n');
+    
+            element.textContent = textParts[0];
+            console.log(textParts);
+            
+            
+            console.log('True', element.classList);
+        }else {
+            element.classList.add("reserved")
+            element.textContent =element.textContent + '\n Reserved';
+    
+            console.log('False', element.classList);
+        }
+    }else{
+
+        alert("You must sign in to reserve courts")
     }
+
 }
 
-
-function buttonAction() {
-    const button = document.getElementById("button1");
-    button.style.backgroundColor = "#E8F0B0";
-    button.textContent =button.textContent + ' Reserved';
-    console.log(5);
-}
-
-
-function buttonAction2() {
-    const button = document.getElementById("button1");
-    const court = button.parentNode.parentNode;
-    if (court.classList.contains("court-three")) {
-        console.log('True');
-    }else {
-        console.log('False');
+function signIn(element){
+    if (signedIn == true){
+        signedIn = false;
+        element.textContent = "Sign In"
+    }else{
+        signedIn = true;
+        element.textContent = "Sign Out"
     }
-    // alert(button.parentNode.parentNode.className)
 
 }
 
-function numberOfButtons() {
-    const courts = document.getElementsByClassName("court");
-    alert(courts.length);
-}
-
-function speak() {
-    alert('Hello');
-}
 
