@@ -10,7 +10,7 @@ function buttonAction(element) {
             var textParts = element.textContent.split('\n');
     
             element.textContent = textParts[0];
-            console.log(textParts);
+            
             
             
             console.log('True', element.classList);
@@ -18,7 +18,7 @@ function buttonAction(element) {
             element.classList.add("reserved")
             element.textContent =element.textContent + '\n Reserved';
     
-            console.log('False', element.classList);
+            
         }
     }else{
 
